@@ -34,9 +34,25 @@ class people::eunomie {
   
   $home = "/Users/${::boxen_user}"
   $perso = "${home}/perso"
+  $dotfiles = "${perso}/dotfiles"
+  $blog = "${perso}/log.winsos.net"4
+  $wlt = "${perso}/wlt"
 
   file { $perso :
        ensure => directory
+  }
+
+  repository {$dotfiles:
+  	     source => 'eunomie/dotfiles',
+	     require => File[$perso]
+  }
+  repository {$blog:
+  	     source => 'eunomie/log.winsos.net',
+	     require => File[$perso]
+  }
+  repository {$wlt:
+  	     source => 'eunomie/wlt',
+	     require => File[$perso]
   }
 
 }
