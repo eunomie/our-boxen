@@ -17,9 +17,13 @@ class people::eunomie {
   include qt
   include iterm2::stable
   include sublime_text_2
-  #sublime_text_2::package { 'Emmet':
-  #  source => 'sergeche/emmet-sublime'
-  #}
+  sublime_text_2::package { 'Emmet':
+    source => 'sergeche/emmet-sublime',
+    'Theme - nexus':
+    source => 'EleazarCrusader/nexus-theme',
+    'SCSS':
+    source => 'danro/SCSS-sublime'
+  }
 
   include dropbox
   include emacs
