@@ -34,6 +34,10 @@ github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
 
+
+# Optional/custom modules. There are tons available at
+# https://github.com/boxen.
+
 github "alfred",         "1.1.5"
 github "skype",          "1.0.5"
 github "adobe_reader",   "1.1.0"
@@ -58,7 +62,3 @@ github "jumpcut",        "1.0.0"
 github "keepassx",       "1.0.0"
 github "pow",            "1.0.0"
 github "go",             "1.0.1"
-
-
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
