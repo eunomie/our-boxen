@@ -1,4 +1,6 @@
 class people::eunomie {
+  $home = "/Users/${::boxen_user}"
+
   include alfred
   include skype
   include adobe_reader
@@ -35,8 +37,14 @@ class people::eunomie {
   include jumpcut
   include keepassx
   include pow
+
+  include go
+  go::version {'1.1.2': }
+  include go::1_1
+  go::local { "{$home}/go":
+    version => '1.1.2'
+  }
   
-  $home = "/Users/${::boxen_user}"
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"
   $blog = "${perso}/log.winsos.net"4

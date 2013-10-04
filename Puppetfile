@@ -57,6 +57,7 @@ github "clojure",    "1.2.0"
 github "jumpcut",    "1.0.0"
 github "keepassx",   "1.0.0"
 github "pow",        "1.0.0"
+github "go",         "1.0.1"
 
 
 # Optional/custom modules. There are tons available at
