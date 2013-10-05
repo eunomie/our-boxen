@@ -65,40 +65,40 @@ class people::eunomie {
     'color.ui':      value => 'true';
 
     # so common alias
-    'alias.st':      value => 'status';
-    'alias.ci':      value => 'commit';
-    'alias.br':      value => 'branch';
-    'alias.co':      value => 'checkout';
-    'alias.df':      value => 'diff';
-    'alias.pr':      value => 'pull --rebase';
+    'alias.st':            value => 'status';
+    'alias.ci':            value => 'commit';
+    'alias.br':            value => 'branch';
+    'alias.co':            value => 'checkout';
+    'alias.df':            value => 'diff';
+    'alias.pr':            value => 'pull --rebase';
 
     # log
     # clean, oneline with graph
-    'alias.oneline': value => 'log --pretty=oneline --abbrev-commit --graph';
-    'alias.lc':      value => 'log ORIG_HEAD.. --stat --no-merges';
-    'alias.new':     value => '!sh -c \'git log $1@{1}..$1@{0} "$@"\'';
+    'alias.oneline':       value => 'log --pretty=oneline --abbrev-commit --graph';
+    'alias.lc':            value => 'log ORIG_HEAD.. --stat --no-merges';
+    'alias.new':           value => '!sh -c \'git log $1@{1}..$1@{0} "$@"\'';
     # outgoing
-    'alias.lout':    value => 'log --pretty=oneline --abbrev-commit --graph @{u}..';
-    'alias.out':     value => '!git fetch && git lout';
+    'alias.lout':          value => 'log --pretty=oneline --abbrev-commit --graph @{u}..';
+    'alias.out':           value => '!git fetch && git lout';
     # incoming
-    'alias.lin':     value => 'log --pretty=oneline --abbrev-commit --graph ..@{u}';
-    'alias.in':      value => '!git fetch && git log --pretty=oneline --abbrev-commit --graph ..@{u}';
+    'alias.lin':           value => 'log --pretty=oneline --abbrev-commit --graph ..@{u}';
+    'alias.in':            value => '!git fetch && git log --pretty=oneline --abbrev-commit --graph ..@{u}';
 
     # diff
-    'alias.dic':     value => 'diff --cached';
-    'alias.diffstat': value => 'diff --stat';
+    'alias.dic':           value => 'diff --cached';
+    'alias.diffstat':      value => 'diff --stat';
 
-    'alias.undo':     value => 'reset --soft HEAD^';
+    'alias.undo':          value => 'reset --soft HEAD^';
 
     # add modified files
-    'alias.addm':     value => '!git-ls-files -m -z | xargs -0 git-add && git status';
+    'alias.addm':          value => '!git-ls-files -m -z | xargs -0 git-add && git status';
     # add unknown files
-    'alias.addu':     value => '!git-ls-files -o --exclude-standard -z | xargs -0 git-add && git status';
+    'alias.addu':          value => '!git-ls-files -o --exclude-standard -z | xargs -0 git-add && git status';
     # delete files marked as deleted
-    'alias.rmm':      value => '!git ls-files -d -z | xargs -0 git-rm && git status';
+    'alias.rmm':           value => '!git ls-files -d -z | xargs -0 git-rm && git status';
 
     # server files
-    'alias.serve':    value => 'daemon --reuseaddr --verbose  --base-path=. --export-all ./.git';
+    'alias.serve':         value => 'daemon --reuseaddr --verbose  --base-path=. --export-all ./.git';
 
     # merge management
     # $ git edit-unmerged
