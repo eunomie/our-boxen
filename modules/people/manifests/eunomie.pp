@@ -42,6 +42,10 @@ class people::eunomie {
   go::local { "{$home}/go":
     version => '1.1.2'
   }
+
+  include vlc
+  include hipchat
+  include cyberduck
   
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"
