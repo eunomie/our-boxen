@@ -46,6 +46,7 @@ class people::eunomie {
   include vlc
   include hipchat
   include cyberduck
+  include hub
   
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"
