@@ -37,10 +37,6 @@ class people::eunomie {
 
   include go
   go::version {'1.1.1': }
-  include go::1_1
-  go::local { "/home/yves/go":
-    version => '1.1.1'
-  }
 
   include vlc
   include hipchat
