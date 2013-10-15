@@ -39,6 +39,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "alfred",         "1.1.5"
+github "osx",            "1.6.0"
 github "skype",          "1.0.5"
 github "adobe_reader",   "1.1.0"
 github "adium",          "1.2.0"
@@ -66,3 +67,5 @@ github "vlc",            "1.0.5"
 github "vagrant",        "2.0.12"
 github "hipchat",        "1.0.8"
 github "cyberduck",      "1.0.1"
+github "pgadmin3",       "1.0.0"
+

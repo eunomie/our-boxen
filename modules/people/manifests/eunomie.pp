@@ -46,6 +46,7 @@ class people::eunomie {
   include hipchat
   include cyberduck
   include hub
+  include pgadmin3
   
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"
