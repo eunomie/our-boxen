@@ -38,7 +38,7 @@ class people::eunomie {
   include go
   go::version {'1.1.2': }
   include go::1_1
-  go::local { "{$home}/go":
+  go::local { "/home/yves/go":
     version => '1.1.2'
   }
 
