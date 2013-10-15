@@ -9,7 +9,6 @@ class people::eunomie {
   include virtualbox
   include firefox
   include libreoffice
-  include libreoffice::languagepack
   class { 'libreoffice::languagepack':
     locale => 'fr'
   }
