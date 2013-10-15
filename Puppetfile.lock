@@ -139,6 +139,11 @@ GITHUBTARBALL
     osx (1.6.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pgadmin3
+  specs:
+    pgadmin3 (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-pow
   specs:
     pow (1.0.0)
@@ -253,6 +258,7 @@ DEPENDENCIES
   onyx (= 1.1.0)
   openssl (= 1.0.0)
   osx (= 1.6.0)
+  pgadmin3 (= 1.0.0)
   pow (= 1.0.0)
   qt (= 1.0.1)
   repository (= 2.2.0)
