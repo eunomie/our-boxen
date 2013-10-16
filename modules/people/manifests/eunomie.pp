@@ -63,6 +63,8 @@ class people::eunomie {
     'user.name':     value => 'Yves Brissaud';
     'user.email':    value => 'yves@brissaud.name';
 
+    'push.default': value => 'simple';
+
     'color.ui':      value => 'true';
 
     # so common alias
