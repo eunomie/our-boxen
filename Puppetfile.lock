@@ -124,11 +124,6 @@ GITHUBTARBALL
     nodejs (3.2.9)
 
 GITHUBTARBALL
-  remote: boxen/puppet-onyx
-  specs:
-    onyx (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -255,7 +250,6 @@ DEPENDENCIES
   libreoffice (= 4.1.1)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
-  onyx (= 1.1.0)
   openssl (= 1.0.0)
   osx (= 1.6.0)
   pgadmin3 (= 1.0.0)
