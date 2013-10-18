@@ -5,7 +5,6 @@ class people::eunomie {
   include skype
   include adobe_reader
   include adium
-  include onyx
   include virtualbox
   include firefox
   include libreoffice
