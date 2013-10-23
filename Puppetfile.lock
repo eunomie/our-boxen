@@ -121,7 +121,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.2.9)
+    nodejs (3.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -156,7 +156,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.3.4)
+    ruby (6.5.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-screen
@@ -249,7 +249,7 @@ DEPENDENCIES
   keepassx (= 1.0.0)
   libreoffice (= 4.1.1)
   nginx (= 1.4.2)
-  nodejs (= 3.2.9)
+  nodejs (= 3.3.0)
   openssl (= 1.0.0)
   osx (= 1.6.0)
   pgadmin3 (= 1.0.0)
