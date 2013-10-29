@@ -42,6 +42,8 @@ class people::eunomie {
   include cyberduck
   include hub
   include pgadmin3
+
+  include mongodb
   
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"

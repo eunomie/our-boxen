@@ -86,4 +86,5 @@ github "vagrant",        "2.0.12"
 github "hipchat",        "1.0.8"
 github "cyberduck",      "1.0.1"
 github "pgadmin3",       "1.0.0"
+github "mongodb",        "1.0.4"
 
