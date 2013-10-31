@@ -21,6 +21,7 @@ class people::eunomie {
     'Emmet':         source => 'sergeche/emmet-sublime';
     'Theme - nexus': source => 'EleazarCrusader/nexus-theme';
     'SCSS':          source => 'danro/SCSS-sublime';
+    'EditorConfig':  source => 'sindresorhus/editorconfig-sublime';
   }
 
   include dropbox
