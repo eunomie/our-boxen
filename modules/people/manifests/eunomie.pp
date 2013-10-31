@@ -34,6 +34,7 @@ class people::eunomie {
   include jumpcut
   include keepassx
   include pow
+  include tmux
 
   include go
   go::version {'1.1.1': }
@@ -45,6 +46,12 @@ class people::eunomie {
   include pgadmin3
 
   include mongodb
+
+  ruby::gem {"teamocil 1.9.3":
+    gem => 'teamocil',
+    ruby => "1.9.3",
+    version => '~> 0.4.4'
+  }
   
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"

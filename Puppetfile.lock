@@ -14,11 +14,6 @@ GITHUBTARBALL
     alfred (1.1.5)
 
 GITHUBTARBALL
-  remote: boxen/puppet-autoconf
-  specs:
-    autoconf (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.0.2)
@@ -114,6 +109,11 @@ GITHUBTARBALL
     libreoffice (4.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mongodb
+  specs:
+    mongodb (1.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.2)
@@ -137,6 +137,16 @@ GITHUBTARBALL
   remote: boxen/puppet-pgadmin3
   specs:
     pgadmin3 (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-phantomjs
+  specs:
+    phantomjs (2.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pkgconfig
+  specs:
+    pkgconfig (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pow
@@ -189,6 +199,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (2.0.12)
@@ -227,7 +242,6 @@ DEPENDENCIES
   adium (= 1.2.0)
   adobe_reader (= 1.1.0)
   alfred (= 1.1.5)
-  autoconf (= 1.0.0)
   boxen (= 3.0.2)
   chrome (= 1.1.1)
   clojure (= 1.2.0)
@@ -248,15 +262,18 @@ DEPENDENCIES
   jumpcut (= 1.0.0)
   keepassx (= 1.0.0)
   libreoffice (= 4.1.1)
+  mongodb (= 1.0.4)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
   osx (= 1.6.0)
   pgadmin3 (= 1.0.0)
+  phantomjs (= 2.0.2)
+  pkgconfig (= 1.0.0)
   pow (= 1.0.0)
   qt (= 1.0.1)
   repository (= 2.2.0)
-  ruby (= 6.3.4)
+  ruby (= 6.5.0)
   screen (= 1.0.0)
   skype (= 1.0.5)
   sourcetree (= 1.0.0)
@@ -264,6 +281,7 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
+  tmux (= 1.0.2)
   vagrant (= 2.0.12)
   virtualbox (= 1.0.6)
   vlc (= 1.0.5)
