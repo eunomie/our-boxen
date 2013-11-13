@@ -18,10 +18,15 @@ class people::eunomie {
   include iterm2::stable
   include sublime_text_2
   sublime_text_2::package {
-    'Emmet':         source => 'sergeche/emmet-sublime';
-    'Theme - nexus': source => 'EleazarCrusader/nexus-theme';
-    'SCSS':          source => 'danro/SCSS-sublime';
-    'EditorConfig':  source => 'sindresorhus/editorconfig-sublime';
+    'Emmet':            source => 'sergeche/emmet-sublime';
+    'Theme - nexus':    source => 'EleazarCrusader/nexus-theme';
+    'SCSS':             source => 'danro/SCSS-sublime';
+    'EditorConfig':     source => 'sindresorhus/editorconfig-sublime';
+    'Alignment':        source => 'wbond/sublime_alignment';
+    'GitConfig':        source => 'lifted-studios/Gitconfig.tmLanguage';
+    'GitGutter':        source => 'jisaacks/GitGutter';
+    'Puppet':           source => 'eklein/sublime-text-puppet';
+    'ColorHighlighter': source => 'Monnoroch/ColorHighlighter';
   }
 
   include dropbox
@@ -47,10 +52,28 @@ class people::eunomie {
 
   include mongodb
 
+  include phantomjs::1_9_0
+  #phantomjs::global { '1.9.0': }
+
   ruby::gem {"teamocil 1.9.3":
     gem => 'teamocil',
     ruby => "1.9.3",
     version => '~> 0.4.4'
+  }
+
+  package { 'Casperjs':
+    ensure => installed,
+    source => 'https://github.com/n1k0/casperjs/archive/1.1-beta1.zip',
+    provider => 'compressed_app'
+  }
+  exec { "make symbolic link for casperjs":
+    command => "ln -sf /Applications/casperjs-1.1-beta1/bin/casperjs /usr/local/bin/casperjs",
+    unless => "test -x /user/local/bin/casperjs && /usr/local/bin/casperjs --version | grep '\\bv1.1-beta1\\b'",
+    user => 'root'
+  }
+
+  package { 'python':
+    ensure => installed
   }
   
   $perso = "${home}/perso"
