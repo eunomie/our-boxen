@@ -141,7 +141,7 @@ class people::eunomie {
     # $ ... test ...
     # $ git add-unmerged
     # $ git commit  # or git rebase --continue or whatever
-    'alias.edit-unmerged': value => '"!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; sub `f`"';
+    'alias.edit-unmerged': value => '"!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; subl `f`"';
     'alias.add-unmerged':  value => '"!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"';
 
     # add github pull requests
