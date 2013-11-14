@@ -27,6 +27,7 @@ class people::eunomie {
     'GitGutter':        source => 'jisaacks/GitGutter';
     'Puppet':           source => 'eklein/sublime-text-puppet';
     'ColorHighlighter': source => 'Monnoroch/ColorHighlighter';
+    'SublimeClojure':   source => 'Foxboron/SublimeClojure';
   }
 
   include dropbox
