@@ -76,6 +76,12 @@ class people::eunomie {
   package { 'python':
     ensure => installed
   }
+
+  package { 'mdr':
+    ensure => installed,
+    source => 'https://github.com/halffullheart/mdr/archive/v1.0.0-beta.2.tar.gz',
+    provider => 'compressed_app'
+  }
   
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"
@@ -147,5 +153,9 @@ class people::eunomie {
 
     # add github pull requests
     'alias.pullify':       value => 'config --add remote.origin.fetch \'+refs/pull/*/head:refs/remotes/origin/pr/*\'';
+
+    # mdr
+    'alias.mdr':           value => '!git diff | mdr';
+    'alias.mdc':           value => '!git diff --cached | mdr';
   }
 }
