@@ -41,6 +41,7 @@ class people::eunomie {
   include keepassx
   include pow
   include tmux
+  include textual
 
   include go
   go::version {'1.1.1': }
