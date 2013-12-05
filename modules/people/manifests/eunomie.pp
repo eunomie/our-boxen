@@ -114,6 +114,17 @@ class people::eunomie {
     'alias.co':            value => 'checkout';
     'alias.df':            value => 'diff';
     'alias.pr':            value => 'pull --rebase';
+    'alias.pull':          value => 'pull --ff-only';
+    'alias.up':            value => 'merge --ff-only';
+    'alias.join':          value => 'merge --no-ff';
+
+    # stash
+    'alias.shelve':        value => 'stash save --include-untracked';
+    'alias.unshelve':      value => 'stash pop';
+
+    # remotes
+    'alias.fo':            value => 'fetch origin';
+    'alias.fu':            value => 'fetch upstream';
 
     # log
     # clean, oneline with graph
