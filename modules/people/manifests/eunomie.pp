@@ -28,6 +28,7 @@ class people::eunomie {
     'Puppet':           source => 'eklein/sublime-text-puppet';
     'ColorHighlighter': source => 'Monnoroch/ColorHighlighter';
     'SublimeClojure':   source => 'Foxboron/SublimeClojure';
+    'AngularJS':        source => 'angular-ui/AngularJS-sublime-package';
   }
 
   include dropbox
