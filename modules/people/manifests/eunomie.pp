@@ -90,6 +90,10 @@ class people::eunomie {
     provider => 'compressed_app'
   }
 
+  include osx::dock::clear_dock
+  include osx::disable_app_quarantine
+  include osx::no_network_dsstores
+
   include onyx
 
   include skitch
