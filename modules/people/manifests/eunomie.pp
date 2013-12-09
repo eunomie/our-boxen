@@ -89,6 +89,10 @@ class people::eunomie {
     source => 'https://github.com/halffullheart/mdr/archive/v1.0.0-beta.2.tar.gz',
     provider => 'compressed_app'
   }
+
+  include onyx
+
+  include skitch
   
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"
