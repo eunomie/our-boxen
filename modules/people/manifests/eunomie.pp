@@ -64,6 +64,11 @@ class people::eunomie {
     version => '~> 0.4.4'
   }
 
+  ruby::gem {"compass":
+    gem => 'compass',
+    ruby => "1.9.3"
+  }
+
   package { 'Casperjs':
     ensure => installed,
     source => 'https://github.com/n1k0/casperjs/archive/1.1-beta1.zip',
