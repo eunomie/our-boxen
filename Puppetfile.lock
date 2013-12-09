@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.3)
+    firefox (1.1.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -124,6 +124,11 @@ GITHUBTARBALL
     nodejs (3.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-onyx
+  specs:
+    onyx (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -167,6 +172,11 @@ GITHUBTARBALL
   remote: boxen/puppet-screen
   specs:
     screen (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skitch
+  specs:
+    skitch (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-skype
@@ -254,7 +264,7 @@ DEPENDENCIES
   dnsmasq (= 1.0.0)
   dropbox (= 1.2.0)
   emacs (= 1.1.0)
-  firefox (= 1.1.3)
+  firefox (= 1.1.5)
   gcc (= 2.0.1)
   git (= 1.3.6)
   go (= 1.0.1)
@@ -270,6 +280,7 @@ DEPENDENCIES
   mongodb (= 1.2.0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
+  onyx (= 1.1.1)
   openssl (= 1.0.0)
   osx (= 2.2.0)
   pgadmin3 (= 1.0.0)
@@ -280,6 +291,7 @@ DEPENDENCIES
   repository (= 2.2.0)
   ruby (= 6.7.6)
   screen (= 1.0.0)
+  skitch (= 1.0.2)
   skype (= 1.0.5)
   sourcetree (= 1.0.0)
   sparrow (= 1.0.0)
