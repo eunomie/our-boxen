@@ -29,6 +29,11 @@ GITHUBTARBALL
     clojure (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-cmake
+  specs:
+    cmake (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-cyberduck
   specs:
     cyberduck (1.0.1)
@@ -122,11 +127,6 @@ GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
     nodejs (3.3.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-onyx
-  specs:
-    onyx (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -260,6 +260,7 @@ DEPENDENCIES
   boxen (= 3.3.5)
   chrome (= 1.1.2)
   clojure (= 1.2.0)
+  cmake (= 1.0.1)
   cyberduck (= 1.0.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.2.0)
@@ -280,7 +281,6 @@ DEPENDENCIES
   mongodb (= 1.2.0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
-  onyx (= 1.1.1)
   openssl (= 1.0.0)
   osx (= 2.2.0)
   pgadmin3 (= 1.0.0)

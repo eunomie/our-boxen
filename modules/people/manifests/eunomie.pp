@@ -95,6 +95,8 @@ class people::eunomie {
   include osx::no_network_dsstores
 
   include skitch
+
+  include cmake
   
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"
