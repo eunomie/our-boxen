@@ -101,7 +101,9 @@ class people::eunomie {
   include skitch
 
   include cmake
-  
+
+  include vagrant
+
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"
   $blog = "${perso}/log.winsos.net"
