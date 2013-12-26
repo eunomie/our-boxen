@@ -184,11 +184,6 @@ GITHUBTARBALL
     skype (1.0.5)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sourcetree
-  specs:
-    sourcetree (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-sparrow
   specs:
     sparrow (1.0.0)
@@ -244,6 +239,11 @@ GITHUBTARBALL
     phantomjs (2.1.0)
 
 GITHUBTARBALL
+  remote: eunomie/puppet-sourcetree
+  specs:
+    sourcetree (1.0.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -293,7 +293,7 @@ DEPENDENCIES
   screen (= 1.0.0)
   skitch (= 1.0.2)
   skype (= 1.0.5)
-  sourcetree (= 1.0.0)
+  sourcetree (= 1.0.1)
   sparrow (= 1.0.0)
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)

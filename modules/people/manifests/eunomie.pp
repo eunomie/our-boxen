@@ -12,7 +12,12 @@ class people::eunomie {
     locale => 'fr'
   }
 
-  include sourcetree
+  #include sourcetree
+  package {'SourceTree':
+    ensure => installed,
+    provider => 'appdmg',
+    source   => "http://downloads.atlassian.com/software/sourcetree/SourceTree_1.8.0.3.dmg"
+  }
   include java
   include qt
   include iterm2::stable
@@ -56,7 +61,6 @@ class people::eunomie {
   include mongodb
 
   include phantomjs::1_9_0
-  #phantomjs::global { '1.9.0': }
 
   ruby::gem {"teamocil 1.9.3":
     gem => 'teamocil',
