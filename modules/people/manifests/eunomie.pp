@@ -36,6 +36,14 @@ class people::eunomie {
     'AngularJS':        source => 'angular-ui/AngularJS-sublime-package';
   }
 
+  include sublime_text_3
+  include sublime_text_3::package_control
+
+  sublime_text_3::package {
+    'Emmet':            source => 'sergeche/emmet-sublime';
+    'Theme - Flatland': source => 'thinkpixellab/flatland';
+  }
+
   include dropbox
   include emacs
   include chrome
