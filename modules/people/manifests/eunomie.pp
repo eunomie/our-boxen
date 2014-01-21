@@ -112,6 +112,8 @@ class people::eunomie {
 
   include vagrant
 
+  include inkscape
+
   $perso = "${home}/perso"
   $dotfiles = "${perso}/dotfiles"
   $blog = "${perso}/log.winsos.net"
