@@ -25,6 +25,8 @@ class people::eunomie {
   sublime_text_2::package {
     'Emmet':            source => 'sergeche/emmet-sublime';
     'Theme - nexus':    source => 'EleazarCrusader/nexus-theme';
+    'Theme - Phoenix':  source => 'netatoo/phoenix-theme';
+    'Theme - Flatland': source => 'thinkpixellab/flatland';
     'SCSS':             source => 'danro/SCSS-sublime';
     'EditorConfig':     source => 'sindresorhus/editorconfig-sublime';
     'Alignment':        source => 'wbond/sublime_alignment';
