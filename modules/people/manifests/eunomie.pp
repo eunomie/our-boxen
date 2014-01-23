@@ -27,6 +27,7 @@ class people::eunomie {
     'Theme - nexus':    source => 'EleazarCrusader/nexus-theme';
     'Theme - Phoenix':  source => 'netatoo/phoenix-theme';
     'Theme - Flatland': source => 'thinkpixellab/flatland';
+    'Theme - itg.flat': source => 'itsthatguy/theme-itg-flat';
     'SCSS':             source => 'danro/SCSS-sublime';
     'EditorConfig':     source => 'sindresorhus/editorconfig-sublime';
     'Alignment':        source => 'wbond/sublime_alignment';
