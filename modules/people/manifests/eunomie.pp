@@ -84,6 +84,93 @@ class people::eunomie {
     ruby => "1.9.3"
   }
 
+  ruby::gem {"haml 1.9.3":
+    gem => 'haml',
+    ruby => "1.9.3"
+  }
+
+  ruby::gem {"sass 1.9.3":
+    gem => 'sass',
+    ruby => "1.9.3",
+    version => "~> 3.2"
+  }
+
+  ruby::gem {"guard 1.9.3":
+    gem => 'guard',
+    ruby => "1.9.3"
+  }
+
+  ruby::gem {"guard-rake 1.9.3":
+    gem => 'guard-rake',
+    ruby => "1.9.3"
+  }
+
+  ruby::gem {"guard-sprockets2 1.9.3":
+    gem => 'guard-sprockets2',
+    ruby => "1.9.3"
+  }
+
+  ruby::gem {"coffee-script 1.9.3":
+    gem => 'coffee-script',
+    ruby => "1.9.3"
+  }
+
+  ruby::gem {"redcarpet 1.9.3":
+    gem => 'redcarpet',
+    ruby => "1.9.3"
+  }
+
+  ruby::gem {"pygments.rb 1.9.3":
+    gem => 'pygments.rb',
+    ruby => "1.9.3"
+  }
+
+  ruby::gem {"gollum 1.9.3":
+    gem => 'gollum',
+    ruby => "1.9.3"
+  }
+
+  ruby::gem {"serve 1.9.3":
+    gem => 'serve',
+    ruby => "1.9.3"
+  }
+
+  ruby::gem {"html_truncator 1.9.3":
+    gem => 'html_truncator',
+    ruby => "1.9.3",
+    version => '~> 0.2'
+  }
+
+  ruby::gem {"sinatra 1.9.3":
+    gem => 'sinatra',
+    ruby => "1.9.3",
+    version => '~> 1.4'
+  }
+
+  ruby::gem {"sprockets 1.9.3":
+    gem => 'sprockets',
+    ruby => "1.9.3",
+    version => '~> 2.10'
+  }
+
+  ruby::gem {"sprockets-helpers 1.9.3":
+    gem => 'sprockets-helpers',
+    ruby => "1.9.3",
+    version => '~> 1.1'
+  }
+
+  ruby::gem {"sprockets-sass 1.9.3":
+    gem => 'sprockets-sass',
+    ruby => "1.9.3",
+    version => '~> 1.0'
+  }
+
+  ruby::gem {"uglifier 1.9.3":
+    gem => 'uglifier',
+    ruby => "1.9.3",
+    version => '~> 2.4'
+  }
+
   package { 'Casperjs':
     ensure => installed,
     source => 'https://github.com/n1k0/casperjs/archive/1.1-beta1.zip',
