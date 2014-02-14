@@ -23,20 +23,21 @@ class people::eunomie {
   include iterm2::stable
   include sublime_text_2
   sublime_text_2::package {
-    'Emmet':            source => 'sergeche/emmet-sublime';
-    'Theme - nexus':    source => 'EleazarCrusader/nexus-theme';
-    'Theme - Phoenix':  source => 'netatoo/phoenix-theme';
-    'Theme - Flatland': source => 'thinkpixellab/flatland';
-    'Theme - itg.flat': source => 'itsthatguy/theme-itg-flat';
-    'SCSS':             source => 'danro/SCSS-sublime';
-    'EditorConfig':     source => 'sindresorhus/editorconfig-sublime';
-    'Alignment':        source => 'wbond/sublime_alignment';
-    'GitConfig':        source => 'lifted-studios/Gitconfig.tmLanguage';
-    'GitGutter':        source => 'jisaacks/GitGutter';
-    'Puppet':           source => 'eklein/sublime-text-puppet';
-    'ColorHighlighter': source => 'Monnoroch/ColorHighlighter';
-    'SublimeClojure':   source => 'Foxboron/SublimeClojure';
-    'AngularJS':        source => 'angular-ui/AngularJS-sublime-package';
+    'Emmet':              source => 'sergeche/emmet-sublime';
+    'Theme - nexus':      source => 'EleazarCrusader/nexus-theme';
+    'Theme - Phoenix':    source => 'netatoo/phoenix-theme';
+    'Theme - Flatland':   source => 'thinkpixellab/flatland';
+    'Theme - itg.flat':   source => 'itsthatguy/theme-itg-flat';
+    'SCSS':               source => 'danro/SCSS-sublime';
+    'EditorConfig':       source => 'sindresorhus/editorconfig-sublime';
+    'Alignment':          source => 'wbond/sublime_alignment';
+    'GitConfig':          source => 'lifted-studios/Gitconfig.tmLanguage';
+    'GitGutter':          source => 'jisaacks/GitGutter';
+    'Puppet':             source => 'eklein/sublime-text-puppet';
+    'ColorHighlighter':   source => 'Monnoroch/ColorHighlighter';
+    'SublimeClojure':     source => 'Foxboron/SublimeClojure';
+    'AngularJS':          source => 'angular-ui/AngularJS-sublime-package';
+    'Sublime-CMakeLists': source => 'zyxar/Sublime-CMakeLists';
   }
 
   include sublime_text_3
