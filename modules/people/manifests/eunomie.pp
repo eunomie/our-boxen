@@ -1,10 +1,15 @@
 class people::eunomie {
   $home = "/Users/${::boxen_user}"
 
-  include alfred
+  package {'alfred':
+    ensure => 'absent'
+  }
   include skype
   include adobe_reader
   include adium
+  package {'adium':
+    ensure => 'absent'
+  }
   include virtualbox
   include firefox
   include libreoffice
