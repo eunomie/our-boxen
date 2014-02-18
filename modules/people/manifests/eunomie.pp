@@ -6,7 +6,6 @@ class people::eunomie {
   }
   include skype
   include adobe_reader
-  include adium
   package {'adium':
     ensure => 'absent'
   }
